@@ -1,0 +1,17 @@
+how js node js archituture work?
+
+everything start with client, a user of your server.
+client make a request to node js server
+the request arrived on server
+every request quee on event queue
+then the request goes to event loop
+the event loop is always running and check any request arrived
+the event loop took request one by one from event queue
+when we are picking reuqest there 2 ways non blocking opertions or blocking operations
+we say blocking operations synchronous
+we say non blocking operations asynchronous
+the event loop check in which operations the reuqest lie non blocking or block
+if it lie on non blocking request then it procces it and send the response to client
+if it is blocking operatios it goes to thread pool
+default thread pool size = 4
+max? - bcore 8

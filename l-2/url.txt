@@ -1,0 +1,25 @@
+url
+uniform resource locatior
+https://www.aethexweb.com/
+
+"https://"
+protocol:
+hypertext
+transfer
+protocol 
+secure
+
+"www.aethexweb.com"
+domain - user friendly name of ip address of my server
+
+"/"
+path: homepage or route page
+
+url path ex:
+/about
+/service
+nested path:
+/blog/how-to-be-coder
+
+url query parameters:
+aethexweb.com/about?userid=1&a=2
